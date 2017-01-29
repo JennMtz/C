@@ -9,32 +9,24 @@ Preprocesador
 #include<fcntl.h>
 #include<unistd.h>
 
-int main(int argc, char *argv[])
-{
+#include <stdio.h>
+#define BEGIN main(){
+#define INTEGER int
+#define IF if
+#define [ (
+#define ] )
+#define THEN {
+#define ELSE }else{
+#define ENDIF }
+#define END }
+#define PRINT printf
 
-#if 0
-	if(argc<2)
-	{
-		perror("Se necesita un argumento\n");
-		return(1111);
-	}
-#endif
-
-	int fd; //Declaracion de un descriptor de archivos.
-	char *archivo="/dev/random\0";
-	int buffer;
-	fd=open(archivo,O_RDONLY);
-	
-	if(fd==-1)
-		fprintf(stderr,"No se pudo abrir o crear el archivo");
-	printf("Descriptor de archivo: %d\n",fd);
-
-//#if 0
-	if(read(fd,&buffer, sizeof(int))!=0)
-		printf("%d", buffer);
-//#endif
-
-	if(close(fd)==-1)
-		fprintf(stderr,"No se pudo cerrar el descriptor de archivo");
-}
-
+BEGIN
+  INTEGER x=0;
+  IF [x>=10]
+  THEN 
+    PRINT("TENGO DIEZ \n");
+  ELSE
+    PRINT("REPROBARE\n");
+  ENDIF
+END
