@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+#Martinez Casares Jenifer
+#Práctica 0
+fizzbuzz = ''
+inicio = 1
+final =100
+
+for i in range (inicio, final+1):
+
+	if i%3 == 0:
+		fizzbuzz += "fizz"
+	if i%5 == 0:
+		fizzbuzz +="buzz"
+	if i%3 != 0 and i%5 != 0:
+		fizzbuzz += str(i)
+	fizzbuzz += '\n'
+
+print(fizzbuzz)
+		
