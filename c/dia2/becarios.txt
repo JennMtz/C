@@ -1,0 +1,70 @@
+1. Nombre: Fernando 
+Edad: 22
+Promedio: 7.000000
+Procedencia: FI
+Generacion: 11
+Proyecto: No
+
+2. Nombre: Jenifer
+Edad: 23
+Promedio: 8.580000
+Procedencia: FCA
+Generacion: 11
+Proyecto: Si
+
+3. Nombre: Diana
+Edad: 27
+Promedio: 9.000000
+Procedencia: FC
+Generacion: 11
+Proyecto: No
+
+4. Nombre: Armando
+Edad: 23
+Promedio: 8.510000
+Procedencia: FI
+Generacion: 11
+Proyecto: Si
+
+5. Nombre: Fernando Tachi
+Edad: 23
+Promedio: 8.000000
+Procedencia: FI
+Generacion: 11
+Proyecto: No
+
+6. Nombre: Saine
+Edad: 23
+Promedio: 8.980000
+Procedencia: FI
+Generacion: 11
+Proyecto: Si
+
+7. Nombre: Fernando Parra
+Edad: 23
+Promedio: 9.500000
+Procedencia: FI
+Generacion: 11
+Proyecto: Si
+
+8. Nombre: Oscar Anota
+Edad: 23
+Promedio: 10.000000
+Procedencia: ESCOM
+Generacion: 11
+Proyecto: Si
+
+9. Nombre: Gonzalo
+Edad: 25
+Promedio: 9.000000
+Procedencia: FC
+Generacion: 11
+Proyecto: Si
+
+10. Nombre: Yeudiel
+Edad: 27
+Promedio: 9.000000
+Procedencia: FCA
+Generacion: 11
+Proyecto: Si
+
