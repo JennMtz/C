@@ -1,1 +1,0 @@
-cmd_/home/vm-jenn/Documentos/C/c/prueba1/hola.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.16.0-4-common/scripts/module-common.lds --build-id  -o /home/vm-jenn/Documentos/C/c/prueba1/hola.ko /home/vm-jenn/Documentos/C/c/prueba1/hola.o /home/vm-jenn/Documentos/C/c/prueba1/hola.mod.o

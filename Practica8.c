@@ -1,3 +1,5 @@
+
+
 #define NUM_ALUMNOS ((const int)10) 
 /*
 Ejemplo Structs y campos de bits.
